@@ -1,0 +1,28 @@
+{
+    "SECRET_KEY": "!9qq_&&(2coq)$1=2i1f-36q@x!xf$wfw97hd#6dn26e+v!cjj",
+
+    "DEBUG": true,
+
+    "PLATFORM_NAME": "MyAPI",
+
+    "DATABASE_NAME": "apilogin",
+    "DATABASE_USER": "postgres",
+    "DATABASE_PASSWORD": "postgres",
+
+    "SMS_USERNAME": "",
+    "SMS_KEY": "",
+    "SMS_URL": "",
+
+    "ALLOWED_HOSTS": [
+        "127.0.0.1",
+        "10.0.2.2",
+        "localhost"
+    ],
+    "CORS_ALLOWED_ORIGINS": [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:8000"
+    ]
+
+    
+}

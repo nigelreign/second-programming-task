@@ -1,0 +1,23 @@
+<resources>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light">
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/taskColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/taskColor</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:padding">2dp</item>
+    </style>
+</resources>
